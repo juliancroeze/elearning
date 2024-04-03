@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #17181A; /* Dark blue background */
+    color: white;
+}
+.navbar {
+    background-color: #202123;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.navbar .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.navbar-left .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stijl voor de hoofdsectie */
+.container1 {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.container1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    padding: 10px;
+}
+
+.register-btn {
+    background-color: #FE4037;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.register-btn:hover {
+    background-color: #a91810;
+}
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.leftContainer {
+width: 50%;
+}
+
+.subContainer {
+    background-color: #202123;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.subContainer1 {
+    background-color: #202123;
+    margin-right: 4rem;
+    margin-left: 1rem;
+
+    margin-top: 3rem;    border-radius: 5px;
+    padding: 1rem;
+}
+
+.createList {
+    background-color: #FE4037;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.createList:hover {
+    background-color: #a91810;
+    cursor: pointer;
+}   
+
+.lijstCard {
+    background-color: #4D4E50;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.lijstCard {
+    position: relative;
+    padding: 10px; /* Example padding */
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.editList,
+.makeList {
+    margin-left: 5px; /* Add margin between buttons */
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #2e2f30; /* Example button color */
+}
+
+.editList:hover {
+    background-color: #1a1b1c;
+}
+
+.makeList {
+    background-color: #FE4037; /* Example button color */
+}
+
+.makeList:hover {
+    background-color: #a91810;
+}
+
+input[type="text"] {
+    background-color: #202123;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+#checkAnswerButton {
+    background-color: #FE4037;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font: 16px;
+    border-radius: 5px;
+}
+
+#nextButton {
+    background-color: #FE4037;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font: 16px;
+    border-radius: 5px;
+}
+
+#backButton {
+    background-color: #FE4037;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font: 16px;
+    border-radius: 5px;
+}

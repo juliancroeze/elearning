@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #17181A;
+    color: white;
+}
+.navbar {
+    background-color: #202123;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.navbar .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.navbar-left .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container1 {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.container1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    padding: 10px;
+}
+
+.register-btn {
+    background-color: #FE4037;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.register-btn:hover {
+    background-color: #a91810;
+}
+
+.container {
+    text-align: center; 
+}
+
+.subContainer {
+    background-color: #202123;
+    width: 80%;
+    margin: 0 auto; 
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase margin bottom for better separation between form groups */
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; /* Adjust width and padding */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #494A4C;
+    color: #fff;
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+.form-group1 {
+    margin-top: 20px;;
+    display: flex;
+}
+
+.form-group1 input,
+.form-group1 select {
+    width: 50%;
+ }
+
+ .right {
+    margin-left: 10px;
+ 
+ }
+
+ .left {
+    margin-right: 10px;
+ 
+ }
+
+button[type="submit"] {
+    width: calc(100% - 20px); /* Adjust width and padding */
+    padding: 12px;
+    background-color: #FE4037;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #a91810;
+}
+
+.addQuestion {
+    color: #FE4037;
+    text-decoration: underline;
+}
+
+.addQuestion:hover {
+    cursor: pointer;
+}
+
+.removeQuestion {
+    color: white;
+    background-color: #FE4037;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}

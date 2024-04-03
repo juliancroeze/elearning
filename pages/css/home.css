@@ -1,0 +1,80 @@
+body {
+    background-color: #17181A;
+    font-family: sans-serif;
+    color: white;
+}
+.login-btn {
+    padding: 10px;
+}
+
+.register-btn {
+    background-color: #FE4037;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.register-btn:hover {
+    background-color: #a91810;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stijl voor de navbar */
+.navbar {
+    background-color: #202123;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.navbar-left .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stijl voor de hoofdsectie */
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    justify-content: center; /* Vertically center the content */
+    width: 50%;
+    text-align: center;
+    height: 50vh;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
